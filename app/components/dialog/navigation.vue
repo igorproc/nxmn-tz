@@ -59,7 +59,10 @@
           variant="primary"
         >
           <template #prepend>
-            <img :src="callback.image" class="dialog-navigation__callback-image">
+            <img
+              :src="callback.image"
+              class="dialog-navigation__callback-image"
+            >
           </template>
 
           <span class="p5">

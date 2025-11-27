@@ -74,7 +74,7 @@ const toggle = () => {
       width: 32rem;
       height: 1rem;
       background-color: $white-color;
-      transition: transform $default-transition;
+      transition: $default-transition all;
     }
 
     &::before {

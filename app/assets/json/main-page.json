@@ -21,5 +21,35 @@
         "deadline": "25.10.25"
       }
     ]
-  }
+  },
+  "info": [
+    {
+      "id": 103,
+      "image": "images/index-page/info/1.jpg",
+      "count": "1062",
+      "title": "квартиры",
+      "availableThemes": ["white", "dark"]
+    },
+    {
+      "id": 105,
+      "image": "images/index-page/info/2.jpg",
+      "count": "6",
+      "title": "корпусов",
+      "availableThemes": ["dark"]
+    },
+    {
+      "id": 109,
+      "image": "images/index-page/info/3.jpg",
+      "count": "8",
+      "title": "этажей",
+      "availableThemes": ["white", "dark"]
+    },
+    {
+      "id": 112,
+      "image": "images/index-page/info/4.jpg",
+      "count": "15 мин",
+      "title": "до центра Краснодара",
+      "availableThemes": ["white", "dark"]
+    }
+  ]
 }

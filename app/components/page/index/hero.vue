@@ -1,5 +1,5 @@
 <template>
-  <div
+  <section
     ref="triggerSection"
     class="main-page-hero hero"
   >
@@ -20,7 +20,7 @@
         class="hero__last-slide"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

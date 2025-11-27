@@ -1,4 +1,8 @@
-<template></template>
+<template>
+  <div class="flat-card">
+    {{ props }}
+  </div>
+</template>
 
 <script setup lang="ts">
 export interface IFlatCardProps {
@@ -7,4 +11,6 @@ export interface IFlatCardProps {
   title: string
   deadline: string | Date
 }
+
+const props = defineProps<IFlatCardProps>()
 </script>

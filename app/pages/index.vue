@@ -17,6 +17,3 @@ const { data } = useAsyncData('main-page', async () => {
     />
   </div>
 </template>
-
-<style lang="scss">
-</style>
