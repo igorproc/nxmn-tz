@@ -1,0 +1,10 @@
+@use '../additional' as *;
+
+body {
+  padding: 0 !important;
+}
+
+.vfm--overlay {
+  top: -80rem !important;
+  background: $dark-color-1000 !important;
+}

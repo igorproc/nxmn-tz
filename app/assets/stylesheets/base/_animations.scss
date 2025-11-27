@@ -1,1 +1,20 @@
 /* animations */
+.slide-from-top-leave-from,
+.slide-from-top-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-from-top-enter-active {
+  top: 80rem;
+}
+
+.slide-from-top-leave-active,
+.slide-from-top-enter-active {
+  transition: all 200ms ease-out;
+}
+
+.slide-from-top-leave-to,
+.slide-from-top-enter-from {
+  transform: translateY(-100%);
+}

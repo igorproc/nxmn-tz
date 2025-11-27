@@ -1,0 +1,95 @@
+{
+  "links": [
+    {
+      "id": 0,
+      "link": "/",
+      "title": "О проекте"
+    },
+    {
+      "id": 1,
+      "link": "/",
+      "title": "В цифрах"
+    },
+    {
+      "id": 2,
+      "link": "/",
+      "title": "расположение"
+    },
+    {
+      "id": 3,
+      "link": "/",
+      "title": "Планировки"
+    },
+    {
+      "id": 4,
+      "link": "/",
+      "title": "Корпуса"
+    },
+    {
+      "id": 5,
+      "link": "/",
+      "title": "Благоустройства"
+    },
+    {
+      "id": 6,
+      "link": "/",
+      "title": "для детей"
+    },
+    {
+      "id": 7,
+      "link": "/",
+      "title": "Входные группы"
+    },
+    {
+      "id": 8,
+      "link": "/",
+      "title": "Формы оплаты"
+    },
+    {
+      "id": 9,
+      "link": "/",
+      "title": "Инфраструктура"
+    },
+    {
+      "id": 10,
+      "link": "/",
+      "title": "Генплан"
+    },
+    {
+      "id": 11,
+      "link": "/",
+      "title": "Галерея"
+    },
+    {
+      "id": 12,
+      "link": "/",
+      "title": "Документы"
+    },
+    {
+      "id": 13,
+      "link": "/",
+      "title": "Команда проекта"
+    }
+  ],
+  "socials": [
+    {
+      "id": 0,
+      "link": {
+        "href": "t.me/telegram",
+        "target": "_blank"
+      },
+      "icon": "asset:social-telegram"
+    },
+    {
+      "id": 0,
+      "link": {
+        "href": "vk.com/telegram",
+        "target": "_blank"
+      },
+      "icon": "asset:social-vk"
+    }
+  ],
+  "callback": {
+    "image": "images/navigation/pm.png"
+  }
+}

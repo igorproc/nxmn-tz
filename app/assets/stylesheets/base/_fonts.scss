@@ -1,0 +1,29 @@
+@use "../additional" as *;
+
+@font-face {
+  @include set-font('@/assets/fonts/manrope/bold.ttf', Manrope, 600);
+}
+
+@font-face {
+  @include set-font('@/assets/fonts/manrope/medium.ttf', Manrope, 500);
+}
+
+@font-face {
+  @include set-font('@/assets/fonts/manrope/regular.ttf', Manrope, 400);
+}
+
+@font-face {
+  @include set-font('@/assets/fonts/manrope/light.ttf', Manrope, 200);
+}
+
+@font-face {
+  @include set-font('@/assets/fonts/invole/bold.otf', Invole, 600);
+}
+
+@font-face {
+  @include set-font('@/assets/fonts/invole/medium.otf', Invole, 500);
+}
+
+@font-face {
+  @include set-font('@/assets/fonts/invole/regular.otf', Invole, 400);
+}

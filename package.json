@@ -54,5 +54,10 @@
     "vue": "latest",
     "vue-router": "^4.4.5",
     "yup": "^1.6.1"
+  },
+  "dependencies": {
+    "embla-carousel-vue": "^8.6.0",
+    "gsap": "^3.13.0",
+    "vue-final-modal": "^4.5.5"
   }
 }

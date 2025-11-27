@@ -1,56 +1,22 @@
 <script lang="ts" setup>
-const nuxtApp = useNuxtApp()
+import pageData from '~/assets/json/main-page.json'
+import { timer } from '#shared/utils/timer'
 
-const baseUrl = ref(nuxtApp.$config.public.BASE_URL)
-const nuxtVersion = ref(nuxtApp.versions.nuxt)
+const { data } = useAsyncData('main-page', async () => {
+  await timer(Math.random())
 
-// example use layers
-const { first } = await useCatCatalog()
-
-const { t } = useI18n()
+  return pageData
+})
 </script>
 
 <template>
   <div class="app-page-home">
-    <h1 class="app-page-home__title">
-      {{ t('welcome') }}
-    </h1>
-
-    <icon
-      name="asset:reorder"
-      size="16"
+    <page-index-hero
+      v-if="data?.hero"
+      v-bind="data.hero"
     />
-
-    <p>This is production: Nuxt Core Template v{{ nuxtVersion }}</p>
-
-    <p>Host: {{ baseUrl }}</p>
-
-    <template v-if="first?.id">
-      <p>Your unique cat</p>
-      <img
-        :src="first.url"
-        :alt="first.id"
-        class="app-page-home__cat"
-      >
-    </template>
   </div>
 </template>
 
 <style lang="scss">
-.app-page-home {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: Roboto, system-ui;
-
-  &__title {
-    color: #00dc82;
-  }
-
-  &__cat {
-    max-width: 50vw;
-    max-height: 50vh;
-    object-fit: cover;
-  }
-}
 </style>

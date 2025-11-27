@@ -1,1 +1,84 @@
 /* typography */
+@use "../additional" as *;
+
+html {
+  font-family: Manrope, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+  font-size: calc(1vw / 14.4);
+}
+
+.additional-font {
+  font-family: Invole, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+}
+
+/* headings */
+.h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 40rem;
+  line-height: 1.1;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-weight: 500;
+  font-size: 32rem;
+  line-height: 1.2;
+  letter-spacing: 0.02rem;
+}
+
+.h5 {
+  font-weight: 500;
+  font-size: 20rem;
+  line-height: 1.2;
+  letter-spacing: 0.02rem;
+}
+
+.h6 {
+  font-weight: 500;
+  font-size: 16rem;
+  line-height: 1.2;
+}
+
+/* links */
+a {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: $primary-color;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* buttons */
+button {
+  font-size: 14rem; // text-sm - default button size
+  font-weight: 400;
+  line-height: 1;
+  color: $primary-color;
+  cursor: pointer;
+  border: none;
+  background: transparent
+}
+
+/* Body text and paragraphs */
+p {
+  margin: 0;
+  font-size: 16rem; // text-base mobile
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.p5 {
+  font-size: 12rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02rem;
+}
+
+.p4 {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02rem;
+}

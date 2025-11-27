@@ -48,3 +48,11 @@
     @content;
   }
 }
+
+@mixin set-font($url, $family, $weight) {
+  font-family: $family;
+  src: url($url);
+  font-weight: $weight;
+  font-style: normal;
+  font-display: swap;
+}

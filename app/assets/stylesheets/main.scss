@@ -5,11 +5,12 @@
 @use 'abstracts/helpers' as *;
 
 /* 2. vendors */
-@use 'vendors/base' as *;
+@use 'vendors/vmf' as *;
 
 /* 3. base */
 @use 'base/animations' as *;
 @use 'base/base' as *;
+@use 'base/fonts' as *;
 @use 'base/reset' as *;
 @use 'base/typography' as *;
 

@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "image": "images/index-page/hero.jpg",
+    "content": {
+      "image": "images/index-page/hero-2.jpg",
+      "title": "Новая глава вашей жизни в Краснодаре",
+      "subtitle": "Современный жилой комплекс в экологичном пригороде с готовой инфраструктурой",
+      "description": "Жилой комплекс, в котором жизнь состоит не из дней, а из моментов, которые становятся вашими историями"
+    },
+    "slides": [
+      {
+        "id": 89,
+        "image": "images/index-page/slider/1.jpg",
+        "title": "Старт продаж в История 3",
+        "deadline": "25.10.25"
+      },
+      {
+        "id": 95,
+        "image": "images/index-page/slider/2.jpg",
+        "title": "Старт продаж в История 3",
+        "deadline": "25.10.25"
+      }
+    ]
+  }
+}
